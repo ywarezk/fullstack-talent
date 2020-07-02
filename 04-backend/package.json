@@ -1,0 +1,16 @@
+{
+  "name": "04-backend",
+  "version": "1.0.0",
+  "description": "with express we can create node backend applications that listen to request and returns response",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.21"
+  }
+}

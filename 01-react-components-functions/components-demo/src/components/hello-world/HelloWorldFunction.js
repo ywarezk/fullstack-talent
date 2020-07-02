@@ -16,6 +16,7 @@ export default function HelloWorldFunction(props) {
     const [isPShown, setIsPShown] = useState(true); 
 
     const toggleP = () => {
+        // this === undefined
         setIsPShown(!isPShown);
         setMessage(Math.random());
     }
